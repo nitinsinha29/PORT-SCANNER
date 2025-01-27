@@ -24,7 +24,8 @@ Gracefully handle potential errors, such as invalid IP addresses, network connec
 Provide informative error messages to the user.
 
 How To Use :
-This Project will only execuete On Linux operating System
-save the file on folder with .py extension
-execute it on terminal as filename.py
-After that write the port , it will scan and tells you about open port
+Save the script as a file named port_scanner.py.
+Open a terminal window and navigate to the directory where you saved the script.
+Run the script using the following command : python port_scanner.py
+The script will prompt you for the target IP address and port range. Enter the desired values and press Enter.
+The script will then scan the ports in the specified range and print a message for each open port.
